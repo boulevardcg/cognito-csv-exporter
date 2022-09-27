@@ -2,14 +2,14 @@
 
 This project allows to export user records to CSV file from [Amazon Cognito User Pool](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-identity-pools.html)
 
-## Instalation
+## Installation
 
 In order to use this script you should have Python 2 or Python 3 installed on your platform
 - run `pip install -r requirements.txt` (Python 2) or `pip3 install -r requirements.txt` (Python 3)
 
 ## Run export
 
-To start export proccess you shout run next command (__Note__: use `python3` if you have Python 3 instaled)
+To start export proccess you should run next command (__Note__: use `python3` if you have Python 3 instaled)
 - `$ python CognitoUserToCSV.py  --user-pool-id 'us-east-1_XXXXXXXXX' -attr Username email_verified given_name family_name UserCreateDate`
 - Wait until you see output `INFO: End of Cognito User Pool reached`
 - Find file `CognitoUsers.csv` that contains all exported users. [Example](https://github.com/hawkerfun/cognito-csv-exporter/blob/master/CognitoUsers.csv) 
