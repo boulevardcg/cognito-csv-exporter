@@ -9,7 +9,7 @@ REGION = ""
 USER_POOL_ID = ""
 LIMIT = 60
 MAX_NUMBER_RECORDS = 0
-REQUIRED_ATTRIBUTE = None
+REQUIRED_ATTRIBUTE = []
 CSV_FILE_NAME = "CognitoUsers.csv"
 
 """ Parse All Provided Arguments """
